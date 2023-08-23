@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: 'VerdanaBoldItalic';
+  font-family: 'VerdanaBold';
   src: url(../fonts/verdana-bold.ttf);
 }
 
@@ -20,19 +20,9 @@
   src: url(../fonts/verdana.ttf);
 }
 
-// body {
-//   font-family: var(--primary-fonts);
-//   color: var(--color-text-primary);
-//   background-color: var(--primary-bg-color);
-//   letter-spacing: 0.03em;
-// }
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.link {
-  text-decoration: none;
+body {
+  // font-family: var(--primary-fonts);
+  // color: var(--color-text-primary);
+  background-color: burlywood;
+  letter-spacing: 0.03em;
 }

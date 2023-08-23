@@ -1,7 +1,45 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+
+  max-width: 100%;
+  height: 500px;
+}
+
 .overlay {
   outline: 1px solid var(--color-text-primary);
-  background-image: var(--gradient), url(//src/images/hero.jpeg);
+  background-image: var(--gradient), url(../images/hero.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.hero-title {
+  font-weight: 900;
+
+  font-size: 26px;
+  line-height: calc(42 / 26);
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  
+  margin: auto;
+}
+
+.hero-text {
+  font-weight: 900;
+
+  font-size: 16px;
+  line-height: calc(42 / 26);
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  
+  margin: auto;
+  margin-top: 20px;
 }

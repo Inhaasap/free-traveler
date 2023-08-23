@@ -1,19 +1,24 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-// @font-face {
-//   font-family: 'Logofont';
-//   src: url(../fonts/FilmP3Bold.ttf);
-// }
+@font-face {
+  font-family: 'Logofont';
+  src: url(../fonts/FilmP3Bold.ttf);
+}
 
-// @font-face {
-//   font-family: 'Timesstand';
-//   src: url(../fonts/TimesNewRomanMTStd.ttf);
-// }
+@font-face {
+  font-family: 'VerdanaBoldItalic';
+  src: url(../fonts/verdana-bold-italic.ttf);
+}
 
-// @font-face {
-//   font-family: 'Timesbold';
-//   src: url(../fonts/TimesNewRomanMTStd-Bold.ttf);
-// }
+@font-face {
+  font-family: 'VerdanaBoldItalic';
+  src: url(../fonts/verdana-bold.ttf);
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url(../fonts/verdana.ttf);
+}
 
 // body {
 //   font-family: var(--primary-fonts);

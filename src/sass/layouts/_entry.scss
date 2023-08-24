@@ -1,20 +1,24 @@
-.main {
+.entry {
 }
 
-.main-title {
+.entry-container {
+  display: flex;
+}
+
+.entry-title {
   margin-bottom: 12px;
   font-family: var(--secondary-bold-fonts);
   font-size: 20px;
   line-height: 1.15;
-  letter-spacing: 0.3em;
-  color: var(--color-text-accent)
+  // letter-spacing: 0.2em;
+  color: var(--color-text-primary);
 }
 
-.main-text {
+.entry-text {
   margin-bottom: 12px;
   font-family: var(--primary-fonts);
   font-size: 16px;
-  line-height: 1.15;
+  line-height: 1.25;
   color: var(--color-text-secondary)
 }
 

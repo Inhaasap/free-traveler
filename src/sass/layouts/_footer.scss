@@ -1,10 +1,15 @@
 .footer {
   height: 50px;
-  background-color: grey;
+  background-color: var(--color-text-footer);
 }
 
 .footer-text {
+  text-align: center;
+  padding: 20px;
 }
 
 .footer-link {
+  font-family: var(--secondary-fonts);
+  font-size: 16px;
+  color: var(--color-text-accent);
 }

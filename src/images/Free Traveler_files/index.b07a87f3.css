@@ -1,0 +1,364 @@
+*, :before, :after {
+  box-sizing: border-box;
+}
+
+html {
+  tab-size: 4;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+hr {
+  height: 0;
+  color: inherit;
+}
+
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp, pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+legend {
+  padding: 0;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+:root {
+  --color-text-primary: #000;
+  --color-text-secondary: gray;
+  --color-text-accent: #29a3a3;
+  --color-text-light: #fff;
+  --color-text-footer: #e0e4e4;
+  --background-color: #ebfafa;
+  --gradient: linear-gradient(#000000a6, #000000a6);
+  --logo-fonts: "Logofont", sans-serif;
+  --primary-fonts: "Verdana", sans-serif;
+  --secondary-fonts: "VerdanaBoldItalic", sans-serif;
+  --secondary-bold-fonts: "VerdanaBold", sans-serif;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  border: 0;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+@font-face {
+  font-family: Logofont;
+  src: url("FilmP3Bold.be0d158d.ttf");
+}
+
+@font-face {
+  font-family: VerdanaBoldItalic;
+  src: url("verdana-bold-italic.7bc0c1ee.ttf");
+}
+
+@font-face {
+  font-family: VerdanaBold;
+  src: url("verdana-bold.f1812084.ttf");
+}
+
+@font-face {
+  font-family: Verdana;
+  src: url("verdana.fd3da19c.ttf");
+}
+
+body {
+  font-family: var(--primary-fonts);
+  color: var(--color-text-primary);
+  background-color: var(--background-color);
+  letter-spacing: .03em;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 414px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 47px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 85px;
+  }
+}
+
+.header {
+  width: 100%;
+  z-index: 10;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  position: absolute;
+}
+
+.header-container {
+  align-items: center;
+  display: flex;
+}
+
+.logo-name {
+  font-family: var(--logo-fonts);
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-top: 16px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo-name {
+    font-size: 40px;
+    line-height: 1.08;
+  }
+}
+
+.navigation {
+  margin-left: 49px;
+}
+
+@media screen and (max-width: 413px) {
+  .navigation {
+    margin-left: 15px;
+  }
+}
+
+.navigation-list {
+  max-width: 100%;
+  display: flex;
+}
+
+.navigation-item {
+  font-family: var(--primary-fonts);
+  letter-spacing: .3em;
+  color: var(--color-text-light);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.08;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.hero {
+  text-align: center;
+  max-width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  display: flex;
+}
+
+.overlay {
+  outline: 1px solid var(--color-text-primary);
+  background-image: var(--gradient), url("hero.9e722bde.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title {
+  letter-spacing: .06em;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.61538;
+}
+
+.hero-text {
+  letter-spacing: .06em;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  margin: 20px auto auto;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.61538;
+}
+
+.entry-container {
+  display: flex;
+}
+
+.entry-title {
+  font-family: var(--secondary-bold-fonts);
+  color: var(--color-text-primary);
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 1.15;
+}
+
+.entry-text {
+  font-family: var(--primary-fonts);
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.main-img {
+  border-radius: 2px;
+  box-shadow: 2px 2px 60px 2px #00000040;
+}
+
+.footer {
+  height: 50px;
+  background-color: var(--color-text-footer);
+}
+
+.footer-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-link {
+  font-family: var(--secondary-fonts);
+  color: var(--color-text-accent);
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=index.b07a87f3.css.map */

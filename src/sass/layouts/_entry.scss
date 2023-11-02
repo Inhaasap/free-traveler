@@ -1,8 +1,18 @@
 .entry {
+  max-width: 100%;
+  height: 900px;
+}
+
+.e-over{
+  outline: 1px solid var(--color-text-primary);
+  background-image: var(--gradient), url(../images/ukraine_map.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .entry-container {
-  display: flex;
+
 }
 
 .entry-title {
@@ -10,8 +20,8 @@
   font-family: var(--secondary-bold-fonts);
   font-size: 20px;
   line-height: 1.15;
-  // letter-spacing: 0.2em;
-  color: var(--color-text-primary);
+  letter-spacing: 0.2em;
+  color: var(--color-text-secondary);
 }
 
 .entry-text {
@@ -20,6 +30,11 @@
   font-size: 16px;
   line-height: 1.25;
   color: var(--color-text-secondary)
+}
+
+.img-container {
+  display: flex;
+  
 }
 
 .main-img {

@@ -1,19 +1,16 @@
 :root {
-  --color-text-primary: #000000;
-  --color-text-secondary: #808080;
-  --color-text-accent: #29a3a3;
+  --color-text-dark: #000000;
   --color-text-light: #ffffff;
-  --color-text-footer: #e0e4e4;
 
-  --background-color: #fefffe;
-  --gradient: linear-gradient(rgba(0, 0, 0, 0.65),
-              rgba(0,
-                0,
-                0,
-                0.65));
+  --color-text-primary: #5e5b5b;
+  --color-text-secondary: #a09f9f;
+
+  --color-text-accent: #29a3a3;
+  --color-text-footer: #e0e4e4;
 
   --logo-fonts: 'Logofont', sans-serif;
   --primary-fonts:'Roboto', sans-serif;
+  
   --secondary-fonts: 'VerdanaBoldItalic', sans-serif;
   --secondary-bold-fonts: 'VerdanaBold', sans-serif;
 }

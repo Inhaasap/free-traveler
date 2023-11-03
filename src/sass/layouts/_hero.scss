@@ -6,7 +6,7 @@
   padding: 0;
 
   max-width: 100%;
-  height: 800px;
+  height: 900px;
 }
 
 .overlay {
@@ -40,11 +40,11 @@
   text-transform: uppercase;
   
   margin: auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .hero-text {
-  font-weight: 400;
+  font-weight: 300;
 
   font-size: 16px;
   line-height: calc(42 / 26);
@@ -53,11 +53,11 @@
   color: var(--color-text-light);
   
   margin: auto;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .hero-btn {
-  font-weight: 400;
+  font-weight: 300;
 
   font-size: 16px;
   line-height: calc(42 / 26);

@@ -1,6 +1,6 @@
 .entry {
   max-width: 100%;
-  height: 900px;
+  height: 890px;
 }
 
 .e-over{
@@ -11,28 +11,35 @@
 }
 
 .entry-container {
-display: flex;
 }
 
 .entry-title {
-  margin-bottom: 12px;
-  font-family: var(--secondary-bold-fonts);
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 0.2em;
-  color: var(--color-text-secondary);
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: calc(42 / 26);
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-light);
+
 }
 
 .entry-text {
-  margin-bottom: 12px;
-  font-family: var(--primary-fonts);
-  font-size: 16px;
-  line-height: 1.25;
-  color: var(--color-text-secondary)
+  font-weight: 400;
+
+  font-size: 14px;
+  line-height: calc(42 / 26);
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-light);
+  
+  margin-top: 20px;
 }
 
 .img-container {
   display: flex;
+  gap: 20px;
+  margin-top: 20px;
   
 }
 

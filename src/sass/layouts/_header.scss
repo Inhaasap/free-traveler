@@ -1,6 +1,6 @@
 .header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   position: absolute;
   width: 100%;
   display: flex;
@@ -17,14 +17,14 @@
   font-family: var(--logo-fonts);
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 1.08;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 
   color: var(--color-text-light);
 
-  margin-top: 16px; 
+  margin-top: 10px; 
   @include tablet {
 
   font-size: 40px;
@@ -41,7 +41,10 @@
 
 .navigation-list {
   display: flex;
-  max-width: 100%;
+
+  margin-top: 16px;
+  margin-right: 50px;
+  // max-width: 100%;
 }
 
 .navigation-item {
@@ -55,5 +58,5 @@
 }
 
 .navigation-item:not(:last-child){
-  margin-right: 20px;
+  margin-right: 50px;
 }

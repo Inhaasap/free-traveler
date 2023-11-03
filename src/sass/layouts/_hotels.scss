@@ -9,3 +9,25 @@
   background-position: center;
   background-size: cover;
 }
+
+.hotels-title {
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: calc(42 / 26);
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-light);
+}
+
+.hotels-text {
+  font-weight: 400;
+
+  font-size: 14px;
+  line-height: calc(42 / 26);
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-light);
+
+  margin-top: 20px;
+}

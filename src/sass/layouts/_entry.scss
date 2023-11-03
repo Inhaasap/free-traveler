@@ -4,15 +4,14 @@
 }
 
 .e-over{
-  outline: 1px solid var(--color-text-primary);
-  background-image: var(--gradient), url(../images/ukraine_map.jpg);
+  background-image: linear-gradient(0deg, rgba(129,126,126,0.7189250700280112) 35%, rgba(5,5,5,0.5144432773109244) 65%), url(../images/ukraine_map.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .entry-container {
-
+display: flex;
 }
 
 .entry-title {
